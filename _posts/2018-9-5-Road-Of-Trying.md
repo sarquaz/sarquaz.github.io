@@ -3,7 +3,7 @@ layout: post
 title: Road of Trying
 categories: [nature]
 ---
-Road of Trying was  2 mile road leading downhill to the ocean through the vast lava field next to the farm I was living at during most of my time spent on island of Hawaii .
+Road of Trying was  2 mile road leading downhill to the ocean through the vast lava field next to the farm I was living at during most of my time spent on island of Hawaii.
 
 <br/>
 It was all [rock](https://en.wikipedia.org/wiki/Lava#ʻAʻā), porous in structure and reddish in color, with inclusions of all kinds of tiny crystals, with green [olivine](https://en.wikipedia.org/wiki/Olivine) dots being most abundant. Rock was very sharp, making every fall, (there were quite a few of them), result in blood and deep scratches.
