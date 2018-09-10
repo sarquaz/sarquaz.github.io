@@ -4,3 +4,6 @@ permalink: /:title/
 
 plugins:
   - jekyll-sitemap 
+
+exclude:
+  - README.md
