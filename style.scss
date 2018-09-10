@@ -5,9 +5,6 @@ $font: "Bookman Old Style";
 $black: #000;
 
 
-body {
-  font: 18px/1.5 $font;
-}
 
 .container {
   margin: 0 auto;
@@ -16,6 +13,9 @@ body {
   padding: 0 0px;
   width: 100%;
   margin-top: 20px;
+  font-size: 105%;
+  font-family: $font;
+  line-height: 1.2;
 }
 
 .entry {
