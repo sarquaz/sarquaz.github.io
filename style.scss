@@ -5,7 +5,7 @@ $font: "Bookman Old Style";
 $black: #000;
 
 @mixin mobile {
-  @media screen and (max-width: 640px) {
+    @media only screen and (max-device-width: 480px) {
     @content;
   }
 }
@@ -22,10 +22,16 @@ $black: #000;
   font-size: 105%;
   font-family: $font;
   line-height: 1.4;
+ 
   
   @include mobile {
         font-size: 110%;
         line-height: 1.2;
+        margin-top: 25px;
+
+        
+
+        
         
     }
   
@@ -78,6 +84,10 @@ a {
   -webkit-flex-flow: row wrap;
   justify-content: space-around;
   flex-wrap: wrap;
+  
+  @include mobile {
+      width: 80%;
+  }
 }
 
 .flex-item {
