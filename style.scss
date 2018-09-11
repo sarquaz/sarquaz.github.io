@@ -4,6 +4,12 @@
 $font: "Bookman Old Style";
 $black: #000;
 
+@mixin mobile {
+  @media screen and (max-width: 640px) {
+    @content;
+  }
+}
+
 
 
 .container {
@@ -16,6 +22,14 @@ $black: #000;
   font-size: 105%;
   font-family: $font;
   line-height: 1.4;
+  
+  @include mobile {
+        font-size: 110%;
+        line-height: 1.2;
+        
+    }
+  
+  
 }
 
 .entry {
@@ -31,10 +45,16 @@ a {
 
 .nav {
   float: right;
+  font-size: 95%;
+  
+  @include mobile {
+      float: none;
+      font-size: 105%;
+    }
 
   a {
     color: $black;
-  }
+    }
 }
 
 .header {
