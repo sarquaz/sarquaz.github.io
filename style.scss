@@ -52,6 +52,9 @@ a {
 .nav {
   float: right;
   
+  @include mobile {
+      font-size:140%;
+    }
 
   a {
     color: $black;
