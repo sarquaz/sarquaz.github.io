@@ -37,6 +37,13 @@ $black: #000;
 .entry {
     text-align: justify;
     text-justify: inter-word;
+    
+    font-size: 105%;
+    
+    @include mobile {
+          font-size: 150%;
+       
+      }
 }
 
 a {
