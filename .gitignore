@@ -5,7 +5,4 @@ _site
 .bundle
 .sass-cache
 _posts/.*
-Gemfile
-Gemfile.lock
-node_modules
-package.json
+.tm_properties

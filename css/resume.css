@@ -39,7 +39,6 @@ a {
 }
 
 .flex-item {
-
   padding: 0px;
   width: 240px;
   height: auto;
@@ -49,6 +48,14 @@ a {
 
 .center {
     text-align: center;
+}
+
+ul {
+    padding: 5px;
+}
+
+li {
+    margin-left: 10px;
 }
 
 .pad {

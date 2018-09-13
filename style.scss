@@ -2,7 +2,7 @@
 ---
 
 $font: "Bookman Old Style";
-$black: #000;
+$color: #3E4562;
 
 @mixin mobile {
     @media only screen and (max-device-width: 480px) {
@@ -10,64 +10,61 @@ $black: #000;
   }
 }
 
-
-
 .container {
   margin: 0 auto;
   max-width: 790px;
-  
   padding: 0 0px;
   width: 100%;
   margin-top: 20px;
   font-size: 105%;
   font-family: $font;
   line-height: 1.4;
+  color: $color;
  
-  
   @include mobile {
-        font-size: 150%;
-        line-height: 1.3;
-        margin-top: 25px;
-        max-width: 100%;
+    font-size: 150%;
+    line-height: 1.3;
+    margin-top: 25px;
+    max-width: 100%;
     }
-  
-  
 }
 
 .entry {
-    text-align: justify;
-    text-justify: inter-word;
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 125%;
     
-    font-size: 110%;
-    
-    @include mobile {
-          font-size: 155%;
-       
-      }
+  @include mobile {
+  font-size: 170%;
+    }
 }
 
 a {
   text-decoration: underline;
   cursor: pointer;
-  color: $black;
+  color: $color;
 }
 
 .nav {
   float: right;
   
   @include mobile {
-      font-size:150%;
-    }
+      font-size:155%;
+  }
 
   a {
-    color: $black;
-    }
+    color: $color;
+  }
 }
 
 .header {
-     text-decoration: none;
-     cursor: pointer;
-     color: $black;
+   text-decoration: none;
+   cursor: pointer;
+   color: $color;
+}
+
+.center {
+  text-align: center;
 }
 
 .flex-container {
@@ -75,13 +72,11 @@ a {
   margin: 0;
   list-style: none;
   width: 100%;
-  
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  
   -webkit-flex-flow: row wrap;
   justify-content: space-around;
   flex-wrap: wrap;

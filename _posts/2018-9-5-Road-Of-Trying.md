@@ -1,12 +1,12 @@
 ---
 layout: post
 title: Road of Trying
-categories: [nature]
+categories: [nonfiction]
 ---
 Road of Trying was  2 mile road leading downhill to the ocean through the vast lava field next to the farm I was living at during most of my time spent on island of Hawaii.
 
 <br/>
-It was all [rock](https://en.wikipedia.org/wiki/Lava#ʻAʻā), porous in structure and reddish in color, with inclusions of all kinds of tiny crystals, with green [olivine](https://en.wikipedia.org/wiki/Olivine) dots being most abundant. Rock was very sharp, making every fall, (there were quite a few of them), result in blood and deep scratches.
+It was all [rock](https://en.wikipedia.org/wiki/Lava#ʻAʻā), porous in structure and reddish in color, with inclusions of all kinds of tiny crystals, with green [olivine](https://en.wikipedia.org/wiki/Olivine) dots being most abundant. Rock was very sharp, making every fall (and there were quite a few of them), result in blood and deep scratches.
 
 <br/>
 Almost no one hiked there (locals were using rugged all wheel drives to get down to the ocean to do fishing). Most certainly no one was crazy enough to hike all the way down to ocean and then back uphill. Lots of times in the beginning, I would decisively set out to hike down, only to immediately fall, bloodying my knees and making the hike impossible. I then would wait for several days for limbs to heal enough (I have noticed that wounds heal faster when constantly exposed to fresh air), ask myself: "WTF, I can't hike down some road?" and try again. After slowing down to a crawl, after thinking through how every interaction of my foot with rock would affect my movement, I was able to hike there consistently with no blood on myself. During hikes back uphill the sole purpose of my existence was how to make the next step and how to get to that tree, growing on the next curve, with a bit of shade left. And it was getting hot, very very hot. At lunchtime, when sun was high, the rock was getting as hot as frying pan. It was hot from the sun above, it was hot from the hot rock below. I was wearing just swim shorts and footwear, and was getting dehydrated every single hike.
