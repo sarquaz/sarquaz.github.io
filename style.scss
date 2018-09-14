@@ -49,7 +49,7 @@ h1 {
   text-justify: inter-word;
   padding: 0px;
   margin-top: 25px;
-  font-size: 120%;
+  font-size: 64px;
     
   @include mobile {
     margin-top: 45px;
@@ -69,7 +69,6 @@ a {
 
 .nav {
   float: right;
-  font-size: 110%;
   
   @include mobile {
     font-size: 48px;
@@ -145,8 +144,8 @@ a {
   text-align: center;
   
   @include mobile {
-    font-size:200%;
+    font-size: 48px;
+    
   }
   
-  font-size: 110%;
 }
