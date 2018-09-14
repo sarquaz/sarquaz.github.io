@@ -45,15 +45,13 @@ h1 {
 
 
 .entry {
-  text-align: justify;
-  text-justify: inter-word;
   padding: 0px;
   margin-top: 25px;
-  font-size: 64px;
+  font-size: 120%;
     
   @include mobile {
     margin-top: 45px;
-    font-size: 48px;
+    font-size: 64px;
     padding-right: 15px; 
     padding-left: 5px;
     
@@ -148,4 +146,13 @@ a {
     
   }
   
+}
+
+hr {
+  width: 20px;
+  height: 1px;
+  border: 0;
+  background-color: $color;
+  
+
 }
