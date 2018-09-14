@@ -16,7 +16,7 @@ $color: #212A3D;
   padding: 0 0px;
   width: 100%;
   margin-top: 20px;
-  font-size: 100%;
+  font-size: 115%;
   font-family: $font;
   line-height: 1.4;
   color: $color;
@@ -53,6 +53,7 @@ a {
 
 .nav {
   float: right;
+  font-size: 110%;
   
   @include mobile {
       font-size:200%;
@@ -123,6 +124,8 @@ a {
   text-align: center;
   
   @include mobile {
-      font-size:200%;
+    font-size:200%;
   }
+  
+  font-size: 110%;
 }
