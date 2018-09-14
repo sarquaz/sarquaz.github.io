@@ -1,12 +1,11 @@
 ---
 layout: default
 ---
-<div>
-  {% for category in site.categories %} 
-  {% if category[0] == "nonfiction" %} 
-  {% for post in category[1] %}
-    {% include article.html %}
-  {% endfor %}
-  {% endif %}
-  {% endfor %}
-</div>
+
+{% for category in site.categories %} 
+{% if category[0] == "nonfiction" %} 
+{% for post in category[1] %}
+  {% include article.html %}
+{% endfor %}
+{% endif %}
+{% endfor %}
