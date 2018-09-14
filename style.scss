@@ -10,6 +10,10 @@ $color: #212A3D;
   }
 }
 
+div {
+  font-size: 100%;
+}
+
 .container {
   margin: 0 auto;
   max-width: 790px;
@@ -35,14 +39,19 @@ img {
     }
 }
 
+
+
+.articles {
+  font-size: 100%;
+}
+
 .entry {
   text-align: justify;
   text-justify: inter-word;
-  font-size: 115%;
+  font-size: 125%;
     
   @include mobile {
-  font-size: 200%;
-    }
+  }
 }
 
 a {
@@ -69,7 +78,7 @@ a {
    cursor: pointer;
    color: $color;
    @include mobile {
-     font-size: 205%;
+     font-size: 200%;
    }
 }
 
@@ -96,7 +105,7 @@ a {
   -webkit-flex-flow: row wrap;
   justify-content: space-around;
   flex-wrap: wrap;
-  font-size: 115%;
+  font-size: 105%;
   
   @include mobile {
       width: 100%;
@@ -113,7 +122,7 @@ a {
   text-align: center;
   
   @include mobile {
-      width: 100%;
+    width: 100%;
      margin-left: 100px;
      margin-right: 100px;
   }
