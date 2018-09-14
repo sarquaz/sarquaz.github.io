@@ -53,7 +53,7 @@ h1 {
     
   @include mobile {
     margin-top: 45px;
-    font-size: 150%;
+    font-size: 48px;
     padding-right: 15px; 
     padding-left: 5px;
     
@@ -64,6 +64,7 @@ a {
   text-decoration: underline;
   cursor: pointer;
   color: $color;
+  
 }
 
 .nav {
@@ -71,12 +72,16 @@ a {
   font-size: 110%;
   
   @include mobile {
-    font-size: 190%;
+    font-size: 48px;
   }
 
   a {
     color: $color;
+    
+    
   }
+  
+  
 }
 
 .header {
