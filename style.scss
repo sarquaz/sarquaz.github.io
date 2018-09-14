@@ -2,7 +2,7 @@
 ---
 
 $font: "Bookman Old Style";
-$color: #3E4562;
+$color: #212A3D;
 
 @mixin mobile {
     @media only screen and (max-device-width: 480px) {
@@ -16,7 +16,7 @@ $color: #3E4562;
   padding: 0 0px;
   width: 100%;
   margin-top: 20px;
-  font-size: 105%;
+  font-size: 100%;
   font-family: $font;
   line-height: 1.4;
   color: $color;
@@ -32,10 +32,10 @@ $color: #3E4562;
 .entry {
   text-align: justify;
   text-justify: inter-word;
-  font-size: 125%;
+  font-size: 115%;
     
   @include mobile {
-  font-size: 170%;
+  font-size: 200%;
     }
 }
 
@@ -65,6 +65,7 @@ a {
 
 .center {
   text-align: center;
+  font-size: 115% ;
 }
 
 .flex-container {
@@ -80,6 +81,7 @@ a {
   -webkit-flex-flow: row wrap;
   justify-content: space-around;
   flex-wrap: wrap;
+  font-size: 115%;
   
   @include mobile {
       width: 100%;
@@ -94,6 +96,13 @@ a {
   height: auto;
   margin-top: 10px;
   text-align: center;
+  
+  @include mobile {
+      width: 100%;
+     font-size: 140%;
+     margin-left: 100px;
+     margin-right: 100px;
+  }
 }
 
 .footer {
