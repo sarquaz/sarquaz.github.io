@@ -29,6 +29,12 @@ $color: #212A3D;
     }
 }
 
+img {
+  @include mobile {
+    width: 70;
+    }
+}
+
 .entry {
   text-align: justify;
   text-justify: inter-word;
@@ -49,7 +55,7 @@ a {
   float: right;
   
   @include mobile {
-      font-size:155%;
+      font-size:200%;
   }
 
   a {
@@ -61,11 +67,19 @@ a {
    text-decoration: none;
    cursor: pointer;
    color: $color;
+   @include mobile {
+     font-size: 205%;
+   }
 }
 
 .center {
   text-align: center;
   font-size: 115% ;
+  
+  @include mobile {
+     font-size: 140%;
+     margin-right: 20px;
+  }
 }
 
 .flex-container {
@@ -99,7 +113,6 @@ a {
   
   @include mobile {
       width: 100%;
-     font-size: 140%;
      margin-left: 100px;
      margin-right: 100px;
   }
@@ -108,4 +121,8 @@ a {
 .footer {
   padding: 20px 0;
   text-align: center;
+  
+  @include mobile {
+      font-size:200%;
+  }
 }
