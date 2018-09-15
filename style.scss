@@ -38,7 +38,7 @@ h1 {
   font-size: 2.21em;
   
   @include mobile {
-    font-size: 2.4em;
+    font-size: 3.4em;
   }
 }
 
@@ -49,7 +49,7 @@ h1 {
     
   @include mobile {
     margin-top: 45px;
-    font-size: 2.5em;
+    font-size: 3.1em;
     padding-right: 15px; 
     padding-left: 5px;
   }
@@ -65,7 +65,7 @@ a {
   float: right;
   
   @include mobile {
-    font-size: 2.31em;
+    font-size: 2.71em;
   }
 
   a {
@@ -84,7 +84,7 @@ a {
   font-size: 1.3em;
   
   @include mobile {
-     font-size: 2.5em;
+     font-size: 3.1em;
      margin-right: 20px;
   }
 }
@@ -106,7 +106,7 @@ a {
   
   @include mobile {
       width: 100%;
-     font-size: 2.5em;
+     font-size: 3.1em;
      margin-right: 20px;
   }
 }
@@ -130,7 +130,7 @@ a {
   text-align: center;
   
   @include mobile {
-    font-size: 2.31em;
+    font-size: 2.71em;
   }
 }
 
