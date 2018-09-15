@@ -35,7 +35,11 @@ img {
 }
 
 h1 {
-  font-size: 2.2em;
+  font-size: 2.21em;
+  
+  @include mobile {
+    font-size: 2.4em;
+  }
 }
 
 .entry {
@@ -45,7 +49,7 @@ h1 {
     
   @include mobile {
     margin-top: 45px;
-    font-size: 2.2em;
+    font-size: 2.3em;
     padding-right: 15px; 
     padding-left: 5px;
   }
@@ -61,7 +65,7 @@ a {
   float: right;
   
   @include mobile {
-    font-size: 2.18em;
+    font-size: 2.21em;
   }
 
   a {
@@ -80,7 +84,7 @@ a {
   font-size: 1.3em;
   
   @include mobile {
-     font-size: 2.2em;
+     font-size: 2.3em;
      margin-right: 20px;
   }
 }
@@ -102,7 +106,7 @@ a {
   
   @include mobile {
       width: 100%;
-     font-size: 2.2em;
+     font-size: 2.3em;
      margin-right: 20px;
   }
 }
@@ -126,7 +130,7 @@ a {
   text-align: center;
   
   @include mobile {
-    font-size: 2.18em;
+    font-size: 2.21em;
   }
 }
 
