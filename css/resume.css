@@ -1,15 +1,14 @@
 body {
     font: 12px/1.4 "Geneva";    
     width: 8.5in;
+    margin: 25mm 25mm 25mm 25mm; 
+    
 }
 
 .top {
     text-align: center;
 }
 
-.main {
-    margin-left: 20mm
-}
 
 h1 {
     text-transform: uppercase;
